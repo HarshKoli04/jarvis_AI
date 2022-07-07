@@ -168,11 +168,7 @@ def takeCommandMic():
         speak('say that Again please...')
         return "None"
 
-# def sendwhatsmsg(phone_no, message):
-#     Message=message
-#     web.open('https://web.whatsapp.com/send?phone'+phone_no+'&text='+Message)
-#     sleep(10)
-#     pyautogui.press('enter')
+
 
 # def sendEmail():
 #     server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
@@ -217,8 +213,8 @@ if __name__=="__main__":
             date()
         elif 'message' in quer:
             user_name={
-                    'mummy':'+91 77380 11704',
-                    'dad':'+91 98929 03833'
+                    'mummy':'+91 99999 00000',
+                    'dad':'+91 22222 33333'
                 }
 
             try:
@@ -256,7 +252,7 @@ if __name__=="__main__":
                 # City Name CITY = "Hyderabad"
                 # API key API_KEY = "Your API Key"
                 # upadting the URL
-                URL = BASE_URL + "q=mumbai&appid=fa0bf1b0eba2d009211f093d3bab7afa"
+                URL = BASE_URL + "q={API_key}"
                 # HTTP request
                 response = requests.get(URL)
                 # checking the status code of the request
